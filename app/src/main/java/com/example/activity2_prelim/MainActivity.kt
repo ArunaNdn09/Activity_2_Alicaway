@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CenterContent(content: @Composable () -> Unit) {
-    ox(
+    Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
